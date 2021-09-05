@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd $HOME/apo.zip
+cd $HOME/2.zip
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
@@ -10,7 +10,7 @@ chmod +x ts
 get() {
 rm -fr Tshake.lua
 rm -fr sudo.lua
-wget "https://github.com/k9mi/apo.zip/blob/main/apo.zip"
+wget "https://github.com/k9mi/apo.zip/blob/main/2.zip"
 lua start.lua
 }
 installall(){
@@ -47,7 +47,7 @@ fi
 instalall
 cd ..
 rm -rf luarocks*
-cd apo.zip
+cd 2.zip
 rm -rf luarocks*
 lua start.lua
 
