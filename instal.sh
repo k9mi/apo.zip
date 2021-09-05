@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd $HOME/TshAkE
+cd $HOME/apo.zip
 install() {
 rm -rf $HOME/.telegram-cli
 sudo chmod +x tg
@@ -44,10 +44,10 @@ fi
 if [ "$1" = "get" ]; then
 get
 fi
-installall
+instalall
 cd ..
 rm -rf luarocks*
-cd TshAkE
+cd apo.zip
 rm -rf luarocks*
 lua start.lua
 
